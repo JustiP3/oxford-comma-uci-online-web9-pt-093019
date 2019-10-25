@@ -9,7 +9,7 @@ string = array.join(" and ")
 else
 last_element = array.pop
 string = array.join(", ")
-return "#{string} and #{last_element}"
+return "#{string}, and #{last_element}"
 end
 
 
